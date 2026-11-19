@@ -1,0 +1,1 @@
+[1,0,0,[["cc.TextAsset",["_name","text"],1]],[[0,0,1,3]],[[0,"HappyBuy.d","\n/**\n * \n * 活动:欢乐抢购模块(happybuy2019_npc)\n */\n declare namespace Rose.Act_2111HappyBuy {\n\n    /**\n     * 启动模块\n     */\n    export function Start(): void;\n\n    /**\n     * 关闭模块\n     */\n    export function Stop(): void;\n}"]],0,0,[],[],[]]

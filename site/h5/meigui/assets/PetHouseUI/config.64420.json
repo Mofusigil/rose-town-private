@@ -1,0 +1,1 @@
+{"paths":{"0":["FriendPetHouseUI.d",0],"1":["PetHouseUI.d",0]},"types":["cc.TextAsset"],"uuids":["18eiLIbbdNAaUUMffet4id","57CJR6CydF5KbhF6/hTLT0"],"scenes":{},"redirect":[],"deps":[],"packs":{"094a0ca45":[0,1]},"name":"PetHouseUI","importBase":"import","nativeBase":"native","debug":false,"isZip":false,"encrypted":false,"versions":{"import":["094a0ca45","3673f"],"native":[]}}

@@ -1,0 +1,145 @@
+{
+  "since": "2026-10-22T17:44:45.167Z",
+  "checkedAt": "2026-10-22T18:00:37.505Z",
+  "errors": [],
+  "potWarnings": [],
+  "warnings": [
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:44:48.203Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:44:48.794Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:44:49.835Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "ActivityPretreatment.JuBao skip: npc not in onlineActivity",
+      "timestamp": "2026-10-22T17:44:50.177Z",
+      "url": "http://127.0.0.1:8091/assets/main/index.57d00.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:46:22.107Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:46:22.130Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:46:22.416Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:46:22.572Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:46:22.620Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:47:06.513Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:51:26.667Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:56:15.383Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:56:16.091Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:56:17.116Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "ActivityPretreatment.JuBao skip: npc not in onlineActivity",
+      "timestamp": "2026-10-22T17:56:17.464Z",
+      "url": "http://127.0.0.1:8091/assets/main/index.57d00.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:57:04.582Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:57:04.645Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:57:04.663Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:57:04.917Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:57:04.952Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:58:17.617Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    },
+    {
+      "level": "warn",
+      "message": "WebGL1 doesn't support all wrap modes with NPOT textures",
+      "timestamp": "2026-10-22T17:58:35.835Z",
+      "url": "http://127.0.0.1:8091/lib/cocos2d-js-min.js"
+    }
+  ],
+  "observedScreens": [
+    "followup-garden.png",
+    "followup-baby-feed.png",
+    "followup-smelt.png"
+  ]
+}

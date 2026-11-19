@@ -1,0 +1,3092 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-22T17:22:55.125916+00:00",
+  "root": "/home/asriel/Projects/rose_town/site/h5/meigui",
+  "counts": {
+    "config": {
+      "expected": 358,
+      "verified": 358,
+      "missing_or_invalid": 0
+    },
+    "external": {
+      "expected": 7,
+      "verified": 6,
+      "missing_or_invalid": 1
+    },
+    "import": {
+      "expected": 738,
+      "verified": 738,
+      "missing_or_invalid": 0
+    },
+    "index": {
+      "expected": 358,
+      "verified": 358,
+      "missing_or_invalid": 0
+    },
+    "native": {
+      "expected": 12607,
+      "verified": 12604,
+      "missing_or_invalid": 3
+    },
+    "settings": {
+      "expected": 2,
+      "verified": 2,
+      "missing_or_invalid": 0
+    }
+  },
+  "bundles": [
+    {
+      "config": "act/main/assets/main/config.951ed.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/2106PinBallRes/config.0ae85.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 7
+      }
+    },
+    {
+      "config": "assets/2110FlyKitesRes/config.9110e.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 9
+      }
+    },
+    {
+      "config": "assets/2111HappyBuyRes/config.ea88b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2111ShoppingSeasonRes/config.5a2ff.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2112ChristmasPartyRes/config.c442f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 11,
+        "native": 10
+      }
+    },
+    {
+      "config": "assets/2201HappyDumplingsRes/config.c66d9.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 7,
+        "native": 6
+      }
+    },
+    {
+      "config": "assets/2201TownScentedTeaRes/config.9c427.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 4,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2202ChocolatePartyRes/config.03406.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 4,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2202HappyYellowDuckRes/config.dd0bb.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 11,
+        "native": 10
+      }
+    },
+    {
+      "config": "assets/2202HitBalloonRes/config.44927.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 5,
+        "native": 4
+      }
+    },
+    {
+      "config": "assets/2202SpringOutingRes/config.431e9.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 4,
+        "native": 4
+      }
+    },
+    {
+      "config": "assets/2203DailyPurchaseRes/config.14cc5.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2203MagicTreasureRes/config.b0df7.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 12,
+        "native": 11
+      }
+    },
+    {
+      "config": "assets/2203RomanticDanceRes/config.24c55.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 5,
+        "native": 4
+      }
+    },
+    {
+      "config": "assets/2203ShoppingEveryDayRes/config.32722.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 7,
+        "native": 6
+      }
+    },
+    {
+      "config": "assets/2203WatermelonRes/config.20cc0.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 15,
+        "native": 14
+      }
+    },
+    {
+      "config": "assets/2203XiaoyingHonorariaRes/config.5fe68.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 4,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2204LobsterFishingRes/config.e3324.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 4,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2204PickFruitsRes/config.69c4f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2205AllPeopleHappyShoppingRes/config.39d95.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2205DartsTalentRes/config.4c780.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 4,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2205HappyEverydayToSendRes/config.af198.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2205StarWishRes/config.cb875.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 12,
+        "native": 11
+      }
+    },
+    {
+      "config": "assets/2205WishingTreeRes/config.d558a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2205WuxingRes/config.e6f5a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 6,
+        "native": 5
+      }
+    },
+    {
+      "config": "assets/2206ColorfulIceCreamRes/config.6b0df.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 4,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2206DragonBoatFestivalRes/config.c4335.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2206HappyBigPartyRes/config.722d4.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2206PagodaRes/config.a1f05.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 13,
+        "native": 12
+      }
+    },
+    {
+      "config": "assets/2207TownAdventureRes/config.4678d.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 4,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2207TreasureTowerRes/config.160b8.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 4,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2207WishingWellRes/config.6faf1.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2208BubbleParadiseRes/config.973fd.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 4,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2208CarvedRes/config.e8611.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2208ShellTreasureRes/config.16aaa.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2209AutumnWelfareRes/config.d139a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2209ElderScrollsRes/config.8cb7f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2209TownLightsRes/config.0ccdb.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2210BabyIncubationRoomRes/config.151e5.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2210RuinExplorersRes/config.e22d8.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2210WorldInThePaintinRes/config.52ef9.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2211AnniversaryGardenPartyRes/config.f672c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2211TownBirthdayPartyRes/config.d0977.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2212FairyHegemonyRes/config.53a39.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2212SnowmanWishesRes/config.444bb.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 4
+      }
+    },
+    {
+      "config": "assets/2301HappyRushTowerRes/config.3fd8a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2302EnergyStoreRes/config.ed098.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2302NauticalExplorationRes/config.54813.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2302SweetBriarRes/config.1013e.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2303FragranceFlowerShopRes/config.5cc19.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2303TreasureMysteryRes/config.a2b44.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2304LuckyBoxRes/config.b0ecf.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2304MagicCrystalBallRes/config.ab513.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2304RainbowTreasureHuntRes/config.f06e5.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2304TownPicnicRes/config.9837c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2305ReturnOnInvestmentRes/config.971fa.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2305SpecialGiftsRes/config.2cd74.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2305UnderwaterFantasyRes/config.8adca.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2307TwentiethAnniversaryRes/config.a83fc.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2308HappyHooplaRes/config.73eb2.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2308StarWheelRes/config.c5ee4.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 4
+      }
+    },
+    {
+      "config": "assets/2309LotusPondCroakRes/config.c61ca.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2309TownWelcomesAutumnRes/config.46142.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2310MineArchaeologyRes/config.41373.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2310PumpkinAdventureNightRes/config.db9a3.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2311QuestionnaireRes/config.f4bc0.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2311SnowmanWishesRes/config.9c20c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 4
+      }
+    },
+    {
+      "config": "assets/2311SpaceRoamingRes/config.2bb5f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 4
+      }
+    },
+    {
+      "config": "assets/2312GardenPartyRes/config.a284b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2401LunarNewYearShowRes/config.117f4.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2402ReunionTonightRes/config.acf3e.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2402SceneryScrollRes/config.7c4d3.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2403AdventureInTheWoodsRes/config.adc6e.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2404MayDayCarnivalRes/config.56065.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2404TimeCardRes/config.49694.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 4,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2405CovenantOfLoveRes/config.0793b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2405VideoGamePartyRes/config.d2937.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2406DeepSeaAdventureRes/config.f3586.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2406MessageBoardRes/config.399de.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2406TeamConsumeRes/config.8710a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2406ZongziSummerRes/config.51360.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 4,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2407CloudStarDreamRes/config.10315.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 7
+      }
+    },
+    {
+      "config": "assets/2407DriftBottleRes/config.7f707.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2407PrivilegeReserveCardRes/config.d93a9.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2408ColorfulSummerRes/config.be324.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2409FlowersBloomInCelebrationRes/config.a13e3.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2409FullMoonInGoldenAutumnRes/config.d1c28.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2410MysticTreasurePavilionRes/config.85261.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2411AnniversaryCelebrationRes/config.50441.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 5
+      }
+    },
+    {
+      "config": "assets/2411FlowerFieldFairyTaleRes/config.8a908.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2411YearlyRequiteRes/config.91efb.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2412IllustratedBooksRes/config.70725.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2412LingxiaoFenghuaRes/config.0c965.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2501AuspiciousGoldenSnakeRes/config.25dae.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 4
+      }
+    },
+    {
+      "config": "assets/2502EternalLoveRes/config.d2cd2.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2502ImmortalAscensionRes/config.b1f95.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2503CuteCatOrchardRes/config.d10f2.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2503IceCrystalLakeRes/config.1b6de.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2504MahjongResoundsRes/config.82c61.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2505RiverTreasureHuntRes/config.d289c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2505StarryChessboardRes/config.76c46.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2506ChronicleKeptRes/config.602cd.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2506NeonPuzzleRes/config.78a03.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2507StarryWishDisplayRes/config.f6383.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2507WeekendBlindBoxRes/config.f7414.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2508ProfitWealthHarvestTreasureRes/config.672cb.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2508WorryFreeSackShopRes/config.8efc7.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2509MoonSalutesNationBirthdayRes/config.bcaf3.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2509WheelOfFortuneRes/config.37935.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2510MagnificentChapterRes/config.f28bb.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2511CutePetsPartyRes/config.8f590.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2512TianYinYinFengRes/config.10dff.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2512TwinFestivalsCarolRes/config.99b0a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2601GoldenHorseCelebrationRes/config.d64e6.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 5
+      }
+    },
+    {
+      "config": "assets/2602MoonlitLanternsRes/config.80821.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2603DragonPalaceBanquetRes/config.40e37.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 4
+      }
+    },
+    {
+      "config": "assets/2604MyriadRealmsRes/config.68ba2.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2604TreasureHunterRes/config.af47f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2605FloweryParadeRes/config.6e337.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 4,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2605MagpieBridgeBondRes/config.d81d3.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2606CloudSeaVoyageRes/config.30262.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2606DragonBoatSoaringSummerRes/config.67d38.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2606LotusScentReflectionRes/config.17170.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2607TreadingWaveSummerRes/config.e6db1.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2608FlowerLetterBondRes/config.16a40.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2608JuBaoShengCaiRes/config.cc088.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2608PhoenixMorningSunRes/config.0a407.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2608StarShareDiscountRes/config.86844.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/2609MagicStudyRes/config.350bf.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 3
+      }
+    },
+    {
+      "config": "assets/2609ShuangHuiYingChangAnRes/config.76139.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 4
+      }
+    },
+    {
+      "config": "assets/ActGuide/config.0b643.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2106PinBall/config.e67e2.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2110FlyKites/config.22034.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2111HappyBuy/config.aa87a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2111ShoppingSeason/config.946f5.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2112ChristmasParty/config.b04c8.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2201HappyDumplings/config.e0c00.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2201TownScentedTea/config.a2801.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2202ChocolateParty/config.11c94.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2202HappyYellowDuck/config.58db9.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2202HitBalloon/config.8cc45.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2202SpringOuting/config.78a77.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2203DailyPurchase/config.66dcc.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2203MagicTreasure/config.449f1.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2203RomanticDance/config.bf0ca.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2203ShoppingEveryDay/config.a11de.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2203Watermelon/config.56f3a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2203XiaoyingHonoraria/config.00782.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2204LobsterFishing/config.bdb6f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2204PickFruits/config.b3944.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2205AllPeopleHappyShopping/config.75ec1.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2205DartsTalent/config.8b43f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2205HappyEverydayToSend/config.1588f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2205StarWish/config.358a9.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2205WishingTree/config.23143.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2205Wuxing/config.7206d.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2206ColorfulIceCream/config.1b17b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2206DragonBoatFestival/config.ab2a1.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2206HappyBigParty/config.50ba6.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2206Pagoda/config.c3657.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2207TownAdventure/config.5b733.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2207TreasureTower/config.b5c16.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2207WishingWell/config.631d5.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2208BubbleParadise/config.d5d18.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2208Carved/config.0bf16.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2208ShellTreasure/config.8a578.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2209AutumnWelfare/config.7ef18.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2209ElderScrolls/config.4e7c5.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2209TownLights/config.3ec29.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2210BabyIncubationRoom/config.a5c1b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2210RuinExplorers/config.bc69f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2210WorldInThePaintin/config.26202.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2211AnniversaryGardenParty/config.29493.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2211TownBirthdayParty/config.b9c1c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2212FairyHegemony/config.e1efd.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2212SnowmanWishes/config.01362.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2301HappyRushTower/config.fd468.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2302EnergyStore/config.f8c3d.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2302NauticalExploration/config.77919.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2302SweetBriar/config.97699.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2303FragranceFlowerShop/config.09e11.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2303TreasureMystery/config.948e4.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2304LuckyBox/config.0a6ac.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2304MagicCrystalBall/config.9993b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2304RainbowTreasureHunt/config.b5454.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2304TownPicnic/config.0de3b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2305ReturnOnInvestment/config.bda6a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2305SpecialGifts/config.62664.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2305UnderwaterFantasy/config.297cf.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2307TwentiethAnniversary/config.eaa85.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2308HappyHoopla/config.785ae.json",
+      "expected": {
+        "config": 1,
+        "index": 1
+      }
+    },
+    {
+      "config": "assets/Act_2308StarWheel/config.df9a5.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2309LotusPondCroak/config.7c69c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2309TownWelcomesAutumn/config.66e92.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2310MineArchaeology/config.b697e.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2310PumpkinAdventureNight/config.bbf87.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2311Questionnaire/config.f5c9c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2311SnowmanWishes/config.69136.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2311SpaceRoaming/config.c510c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2312GardenParty/config.cfe8c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2401LunarNewYearShow/config.7bae1.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2402ReunionTonight/config.8a86d.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2402SceneryScroll/config.056a5.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2403AdventureInTheWoods/config.e67f3.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2404MayDayCarnival/config.a80b1.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2404TimeCard/config.aadc6.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2405CovenantOfLove/config.a3900.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2405VideoGameParty/config.70d4c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2406DeepSeaAdventure/config.359a0.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2406MessageBoard/config.3f6f6.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2406TeamConsume/config.72864.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2406ZongziSummer/config.1318a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2407CloudStarDream/config.580f8.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2407DriftBottle/config.50c6e.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2407PrivilegeReserveCard/config.e9830.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2408ColorfulSummer/config.fe49c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2409FlowersBloomInCelebration/config.57d3d.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2409FullMoonInGoldenAutumn/config.cfc81.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2410MysticTreasurePavilion/config.36129.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2411AnniversaryCelebration/config.8e6f9.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2411FlowerFieldFairyTale/config.0adf7.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2411YearlyRequite/config.05385.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2412IllustratedBooks/config.e82e4.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2412LingxiaoFenghua/config.d705d.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2501AuspiciousGoldenSnake/config.07337.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2502EternalLove/config.106e5.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2502ImmortalAscension/config.779b5.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2503CuteCatOrchard/config.9deb1.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2503IceCrystalLake/config.86a7f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2504MahjongResounds/config.26e4f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2505RiverTreasureHunt/config.7845b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2505StarryChessboard/config.94801.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2506ChronicleKept/config.3de4c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2506NeonPuzzle/config.14bfb.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2507StarryWishDisplay/config.f8b9b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2507WeekendBlindBox/config.28c39.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2508ProfitWealthHarvestTreasure/config.7f662.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2508WorryFreeSackShop/config.8d633.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2509MoonSalutesNationBirthday/config.55499.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2509WheelOfFortune/config.abf2f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2510MagnificentChapter/config.dbba8.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2511CutePetsParty/config.07a04.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2512TianYinYinFeng/config.85b85.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2512TwinFestivalsCarol/config.e499d.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2601GoldenHorseCelebration/config.f3bb5.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2602MoonlitLanterns/config.8d8a1.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2603DragonPalaceBanquet/config.ffc5a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2604MyriadRealms/config.b7e3e.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2604TreasureHunter/config.da1c0.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2605FloweryParade/config.3e240.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 3
+      }
+    },
+    {
+      "config": "assets/Act_2605MagpieBridgeBond/config.413b6.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2606CloudSeaVoyage/config.ed35c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2606DragonBoatSoaringSummer/config.1b18f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2606LotusScentReflection/config.50138.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2607TreadingWaveSummer/config.14e58.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2608FlowerLetterBond/config.a57b1.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2608JuBaoShengCai/config.53ada.json",
+      "expected": {
+        "config": 1,
+        "index": 1
+      }
+    },
+    {
+      "config": "assets/Act_2608PhoenixMorningSun/config.c6174.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2608StarShareDiscount/config.6f71c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2609MagicStudy/config.945fe.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Act_2609ShuangHuiYingChangAn/config.8dba1.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 1
+      }
+    },
+    {
+      "config": "assets/ActiveNpc/config.d0858.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 29,
+        "native": 28
+      }
+    },
+    {
+      "config": "assets/ActivityCommonRes/config.78a2e.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 4522
+      }
+    },
+    {
+      "config": "assets/ActivityEnterBoardNpc/config.4a72e.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/ActivityEntrance/config.fd0cd.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/ActivityEntranceRes/config.2fec9.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 318
+      }
+    },
+    {
+      "config": "assets/ActivityPretreatment/config.18160.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Alert/config.11790.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/AlertRes/config.3fef2.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/BeanVine/config.07196.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Butterfly/config.51c9d.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 78
+      }
+    },
+    {
+      "config": "assets/ButterflyFlower/config.bf66e.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Combine/config.bf9b7.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Config/config.38517.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 19,
+        "native": 1
+      }
+    },
+    {
+      "config": "assets/DailyTask/config.7604c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/DecorateGarden/config.deda8.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/DingXiang/config.791b5.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/DingXiangRes/config.215d8.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 30
+      }
+    },
+    {
+      "config": "assets/Dream/config.0b3be.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/ExchangeCoupon/config.94159.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/FairyPotRefine/config.67530.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Flash2Cocos/config.9a4dc.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/FloatTips/config.55178.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Floors/config.99580.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 54
+      }
+    },
+    {
+      "config": "assets/FlowerGod/config.1fe7a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/FlowerOrder/config.0b031.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/FlowerRace/config.a1b93.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Flowers/config.64435.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 1225
+      }
+    },
+    {
+      "config": "assets/Friend/config.4b648.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/FriendGift/config.2c45b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/FriendHome/config.d8a08.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/GameSettings/config.dc0f3.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/GameVip/config.20d97.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Garden/config.f5af7.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 141
+      }
+    },
+    {
+      "config": "assets/GardenFlowerEdit/config.b982c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/GardenMap/config.04a51.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/GardenUI/config.0dd6a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/GetRoseMaterial/config.34454.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/GiftCard/config.89047.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/GiftInfo/config.4a975.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/GourdMap/config.99433.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/GourdNPC/config.70c6b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 45,
+        "native": 44
+      }
+    },
+    {
+      "config": "assets/GourdUI/config.9ca3f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/HallSignin/config.68bc5.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/HappyEgg/config.c5a92.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Loader/config.c5c40.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 2
+      }
+    },
+    {
+      "config": "assets/LoginTimeReward/config.d134b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/MagicTree/config.3199a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 81
+      }
+    },
+    {
+      "config": "assets/Materials/config.b0593.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/MoreGame/config.7da52.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/NewUserGuide/config.2e3ed.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Perfume/config.233da.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PetExploreMap/config.3cdef.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PetHead/config.35035.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 12
+      }
+    },
+    {
+      "config": "assets/PetHouseMap/config.c997b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PetHouseUI/config.64420.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PetPK/config.68f0b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PetPKAugury/config.ac3e8.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PetPKBuyGift/config.c3514.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PetPKCRank/config.cf4fd.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PetPKChangeZone/config.e0622.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PetPKDisCount/config.53526.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PetPKShop/config.4d8e4.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PetPKSystem/config.82b41.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PetPKTeam/config.ce0f6.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PetPKTraining/config.8eef7.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Plantation/config.ff6cb.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PlantationMap/config.77c1e.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PotAttribute/config.8ed14.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/PotGem/config.99df7.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Pots/config.bd0c4.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 280
+      }
+    },
+    {
+      "config": "assets/Preload/config.32d6a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/RankList/config.287fb.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Recycle/config.717dd.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Report/config.7f92b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/RosePet/config.3349f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 4604
+      }
+    },
+    {
+      "config": "assets/RoseSeedUpgrade/config.d29e9.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/RoseSignIn/config.d51cf.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Roseary/config.7c46f.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/Roselife/config.37415.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/SenceDecorationRes/config.6ac1a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 171
+      }
+    },
+    {
+      "config": "assets/Shop/config.b24c8.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/SmeltPot/config.82579.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/SoilPergolas/config.f1848.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/SoilPergolasUI/config.28854.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 80
+      }
+    },
+    {
+      "config": "assets/Task/config.2204c.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/TitleProject/config.61076.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 128,
+        "native": 127
+      }
+    },
+    {
+      "config": "assets/TownDaily/config.0155a.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/UI/config.183c1.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 166
+      }
+    },
+    {
+      "config": "assets/UserInfoWindow/config.e0998.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 52
+      }
+    },
+    {
+      "config": "assets/Wallpapers/config.b122b.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 75
+      }
+    },
+    {
+      "config": "assets/Warehouse/config.cd9c5.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/WaterPergolas/config.b88a2.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 10
+      }
+    },
+    {
+      "config": "assets/Windows/config.caedc.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 77
+      }
+    },
+    {
+      "config": "assets/internal/config.468ae.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1,
+        "native": 1
+      }
+    },
+    {
+      "config": "assets/main/config.57d00.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 1
+      }
+    },
+    {
+      "config": "assets/resources/config.c31c6.json",
+      "expected": {
+        "config": 1,
+        "index": 1,
+        "import": 2,
+        "native": 1
+      }
+    }
+  ],
+  "missing": [
+    {
+      "path": "assets/2201HappyDumplingsRes/native/6d/6da83eaa-2f9a-463a-afe9-d3fde2df63f7.48040.bytes",
+      "category": "native",
+      "known": false
+    },
+    {
+      "path": "assets/Act_2609ShuangHuiYingChangAn/native/c6/c686e4cc-29b1-4156-b3bb-2b482daf847b.cae22.py",
+      "category": "native",
+      "known": false
+    },
+    {
+      "path": "assets/Flowers/native/94/94af83ad-ee00-4de8-b4d4-91493f084ca1.b472a.bin",
+      "category": "native",
+      "known": true
+    }
+  ],
+  "errors": [
+    {
+      "path": "img/mark_bg.jpg",
+      "error": "invalid JPEG header or truncated EOI"
+    }
+  ],
+  "limitations": [
+    "SHA-256 records local bytes; no authoritative upstream hash manifest is available.",
+    "PNG/JPEG validation checks headers and end markers, not a full image decode.",
+    "Opaque native payloads are hashed, not executed or semantically validated.",
+    "Dynamic runtime asset names beyond the explicit external list are not exhaustively inferred."
+  ],
+  "inventory": {
+    "files": 14281,
+    "bytes": 2791919456
+  },
+  "status": "failed"
+}

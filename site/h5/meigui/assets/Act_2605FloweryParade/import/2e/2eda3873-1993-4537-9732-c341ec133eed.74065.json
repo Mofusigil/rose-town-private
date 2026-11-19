@@ -1,0 +1,1 @@
+[1,0,0,[["cc.TextAsset",["_name","text"],1]],[[0,0,1,3]],[[0,"FloweryParade.d","declare namespace Rose.Act_2605FloweryParade {\n    export function Start(): void;\n    export function Stop(): void;\n}\n"]],0,0,[],[],[]]

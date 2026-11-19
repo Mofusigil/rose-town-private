@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.log
+/local_player_state.json
+/.agents/
+/.aws/
+/.codex/
+/.env
+/.env.*

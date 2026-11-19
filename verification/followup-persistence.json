@@ -1,0 +1,22 @@
+{
+  "verified_at": "2026-10-22T18:04:35.984116+00:00",
+  "state_file": "/tmp/rose-audit-followup-player.json",
+  "health": "rose-town-local",
+  "after_service_restart": {
+    "baby_evolution": 1,
+    "baby_birthday": "2026-10-23",
+    "evolution_grass": 4,
+    "smelt_material": 0,
+    "smelt_speed": [
+      2,
+      200,
+      200,
+      300
+    ],
+    "gold": 9360000
+  },
+  "preserved_save_sha256": {
+    "local_player_state.json": "16b80a69998742b459c013d2887ef6403986ddb6a3eafa2851977a949181f2c9",
+    "local_player_state.validation.json": "bbff6b499567b48687cd63fb8e44dd1c86569e834b83e4618911072ec52817e5"
+  }
+}

@@ -1,0 +1,1 @@
+[1,0,0,[["cc.TextAsset",["_name","text"],1]],[[0,0,1,3]],[[0,"perloadConfig","<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<data>\n    <item type=\"zip\" bundle=\"Config\" path=\"game_config\" desc=\"配置数据\"/>\n    <item type=\"fairyGUI\" bundle=\"UI\" path=\"UI\" desc=\"界面\"/>\n</data>"]],0,0,[],[],[]]

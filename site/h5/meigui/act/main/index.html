@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>rose-proj</title>
+  <meta name="viewport"
+    content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="full-screen" content="yes" />
+  <meta name="screen-orientation" content="portrait" />
+  <meta name="x5-fullscreen" content="true" />
+  <meta name="360-fullscreen" content="true" />
+  <meta name="renderer" content="webkit" />
+  <meta name="force-rendering" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="stylesheet" type="text/css" href="style-desktop.62669.css" />
+  <link rel="icon" href="data:;base64,=">
+  <script src="../../lib/local-payments.js"></script>
+  <script>
+    var isInLocal = false;  
+  </script>
+  <script type="text/javascript" src="//baobaocdn.qq.com/cdn/h5/meigui/lib/jquery.js"></script>
+  <script src="//baobaocdn.qq.com/cdn/h5/meigui/lib/local.js"></script>
+  <script src="//cdn-go.cn/aegis/aegis-sdk/latest/aegis.min.js"></script>
+  <!-- <script type="text/javascript" src="//baobaocdn.qq.com/cdn/h5/meigui/lib/aegis.js"></script> -->
+  <script type="text/javascript" src="//baobaocdn.qq.com/cdn/h5/meigui/lib/polyfill.min.js"></script>
+  <script src="//baobaocdn.qq.com/cdn/h5/meigui/lib/zepto.min.js" charset="utf-8"></script>
+  <script type="text/javascript" src="//baobaocdn.qq.com/cdn/h5/meigui/lib/es6-shim.min.js"></script>
+  <script src="//baobaocdn.qq.com/cdn/h5/meigui/lib/ua-parser.min.js"></script>
+
+  <script>
+    var parser = new UAParser();
+    window.roseUAParser = parser;
+    console.log("roseUAParser OSInfo:", parser.getOS(), "roseUAParser BrowserInfo:", parser.getBrowser());
+    function getQueryVariable(variable) {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+        if (pair[0] == variable) { return pair[1]; }
+      }
+      return (false);
+    }
+    function getActName() {
+      return getQueryVariable("act");
+    }
+
+    function getJumpParam() {
+      return getQueryVariable("jumpParam");
+    } 
+  </script>
+  <script type="text/javascript" src="//baobaocdn.qq.com/cdn/h5/meigui/lib/h5speed.js"></script>
+</head>
+
+<body>
+  <div id="GameDiv" style="border:0; box-shadow: none">
+    <canvas id="GameCanvas"> </canvas>
+    <div id="splash">
+      <img id="bgImg" />
+      <div class="progress-bar stripes">
+        <span style="width: 0%"></span>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    //isH5 == 1,isFlash == 0
+    var isH5 = 0;
+    var d_w = isH5 ? 1100 : 910;
+    var d_h = isH5 ? 660 : 588;
+    var gameDiv = document.getElementById("GameDiv");
+    gameDiv.style.width = d_w + "px";
+    gameDiv.style.height = d_h + "px";
+    var gameCanvas = document.getElementById("GameCanvas");
+    gameCanvas.width = d_w;
+    gameCanvas.height = d_h;
+    var imgSrc = isH5 ? "https://baobaocdn.qq.com/cdn/h5/meigui/img/mark_bg.jpg" : "https://baobaocdn.qq.com/cdn/h5/meigui/img/mark_bg_1.jpg";
+    jQuery('#bgImg').attr("src", imgSrc);
+  </script>
+
+  <script src="//baobaocdn.qq.com/cdn/h5/meigui/lib/PetCall.js" charset="utf-8"></script>
+  <script src="https://baobao.qq.com/act/gamepet/pet_config.js?v=20251210" charset="gb2312"></script>
+  <script type="text/javascript" src="//baobaocdn.qq.com/cdn/h5/meigui/lib/base64.js"></script>
+  <script src="src/settings.2dbf4.js" charset="utf-8"></script>
+  <script src="main.77704.js" charset="utf-8"></script>
+
+  <script type="text/javascript">
+    (function () {
+      // open web debugger console
+      if (typeof VConsole !== 'undefined') {
+        window.vConsole = new VConsole();
+      }
+
+      var debug = window._CCSettings.debug;
+      var splash = document.getElementById('splash');
+      splash.style.display = 'block';
+
+      function loadScript(moduleName, cb) {
+        function scriptLoaded() {
+          document.body.removeChild(domScript);
+          domScript.removeEventListener('load', scriptLoaded, false);
+          cb && cb();
+        };
+        var domScript = document.createElement('script');
+        domScript.async = true;
+        domScript.src = moduleName;
+        domScript.addEventListener('load', scriptLoaded, false);
+        document.body.appendChild(domScript);
+      }
+
+      loadScript(debug ? 'cocos2d-js.js' : '//baobaocdn.qq.com/cdn/h5/meigui/lib/cocos2d-js-min.js', function () {
+        if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
+          loadScript(debug ? 'physics.js' : 'physics-min.js', window.boot);
+        }
+        else {
+          window.boot();
+        }
+      });
+
+      window.addEventListener('message', function (event) {
+        if (event.data.action == "closeh5Music") {
+          window.closeH5Music && window.closeH5Music();
+          console.log("closeh5Music");
+        }
+        else if (event.data.action == "stopSendLoginTimeReward") {
+          window.stopSendLoginTimeReward && window.stopSendLoginTimeReward();
+          console.log("stopSendLoginTimeReward");
+        }
+        else if (event.data.action == "jumpToH5Game") {
+          console.log("jumpToH5Game_index", event.data.param);
+          localStorage.setItem("jumpToH5GameParam", JSON.stringify(event.data.param));
+        }
+        else if (event.data.action == "openActivity") {
+          console.log("openActivity", event.data.npcName);
+          window.Rose.ActivityEntrance && window.Rose.ActivityEntrance.openActivity && window.Rose.ActivityEntrance.openActivity(event.data.npcName + "_npc");
+        }
+      }, false);
+
+
+    })();
+
+
+  </script>
+
+</body>
+
+</html>

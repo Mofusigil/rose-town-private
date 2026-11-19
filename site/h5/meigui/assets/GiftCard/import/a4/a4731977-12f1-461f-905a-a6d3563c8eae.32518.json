@@ -1,0 +1,1 @@
+[1,0,0,[["cc.TextAsset",["_name","text"],1]],[[0,0,1,3]],[[0,"GiftCard.d","declare namespace Rose.GiftCard {\r\n\r\n    export enum Message {}\r\n    \r\n    export function Start(): void;\r\n\r\n    export function Stop(): void;\r\n\r\n     /**\r\n     * 打开礼物卡UI\r\n     * @param  \r\n     */\r\n      export function ShowRoseMainUI(): void;\r\n}\r\n\r\n\r\n\r\n"]],0,0,[],[],[]]

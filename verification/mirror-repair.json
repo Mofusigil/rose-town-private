@@ -1,0 +1,22 @@
+{
+  "retrieved_at": "2026-10-22T17:27:55.962212+00:00",
+  "assets": [
+    {
+      "path": "assets/2201HappyDumplingsRes/native/6d/6da83eaa-2f9a-463a-afe9-d3fde2df63f7.48040.bytes",
+      "source": "https://baobaocdn.qq.com/cdn/h5/meigui/act/main/assets/2201HappyDumplingsRes/native/6d/6da83eaa-2f9a-463a-afe9-d3fde2df63f7.48040.bytes",
+      "status": 200,
+      "bytes": 43557,
+      "sha256": "ce9f438785c11b2020346b4cdd5358435eda36d2ff3757e742bf953d3751fdcd",
+      "content_type": "application/octet-stream"
+    },
+    {
+      "path": "assets/Act_2609ShuangHuiYingChangAn/native/c6/c686e4cc-29b1-4156-b3bb-2b482daf847b.cae22.py",
+      "source": "https://baobaocdn.qq.com/cdn/h5/meigui/act/main/assets/Act_2609ShuangHuiYingChangAn/native/c6/c686e4cc-29b1-4156-b3bb-2b482daf847b.cae22.py",
+      "status": 200,
+      "bytes": 7778,
+      "sha256": "327d7a5d1946fa5a5a818a08826d72955e57a77d358941fdffd3f28d5d398607",
+      "content_type": "application/octet-stream"
+    }
+  ],
+  "note": "Opaque native data saved without execution."
+}
